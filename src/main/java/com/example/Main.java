@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         byte i;
         byte j;
-        float dva_na_tri = 2/3;
+        float twoDivThree = 2/3;
 
         short[] a = {6,8,10,12,14,16};
         double[] x = new double[19];
@@ -16,7 +16,7 @@ public class Main {
             for (j = 0; j<19; j++){
                 switch (a[i]) {
                     case 8:
-                        p[i][j] = (dva_na_tri) / pow(0.25 / pow(E, x[j]), 2);
+                        p[i][j] = (twoDivThree) / pow(0.25 / pow(E, x[j]), 2);
                         break;
                     case 10:
                     case 12:
